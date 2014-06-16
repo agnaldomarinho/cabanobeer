@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+
+/* ====================
+Mission, Vision and Values.
+==================== */
+
+#valores {
+  background: #fafafa;
+  padding: 5px 0 30px 0;
+  @include clearfix;
+  
+  ul { width: 47%; }
+  
+  .column-01 { float: left; }
+  .column-02 { float: right; }
+
+  h3 {
+    text-transform: uppercase;
+    margin: 40px 0 10px 0;
+    font-weight: 300;
+    font-size: $font-large;
+    color: #000;
+  }
+  p {
+    font-size: $font-medium2;
+    line-height: 27px;
+  }
+}

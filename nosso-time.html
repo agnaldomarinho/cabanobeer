@@ -1,0 +1,86 @@
+---
+layout: default
+title: Nosso time - Web Software Development
+description: HE:labs é uma empresa pioneira em desenvolvimento de sistemas web, aplicativos web, SaaS e Cloud Computing.
+en: /en/our-team/
+---
+<div id="cover-banner">
+  <div class="containner">
+
+    <h2>Nosso Time</h2>
+    <p>Os melhores desenvolvedores, hackers e designers reunidos em times altamente produtivos.</p>
+
+  </div>
+</div> <!-- /cover-banner -->
+
+<section id="time">
+  <div class="containner">
+
+    <ul>
+      {% for person in site.categories.time reversed %}
+        <li>
+          {% if person.permalink %}<a href="{{ person.permalink }}">{% endif %}
+            <img src="{{ person.image }}" alt="{{ person.full_name }}">
+            <h3>{{ person.full_name }}</h3>
+            <p>{{ person.job_title }}</p>
+          {% if person.permalink %}</a>{% endif %}
+
+          <ul class="social-icons">
+            {% for sa in person.social_accounts %}
+              {% if sa.username %}
+                <li>
+                  <a class="{{ sa.provider }}" href="http://{{ sa.provider }}.com/{{ sa.username }}" rel="external" title="{{ sa.provider | capitalize }} do {{ person.full_name }}">{{ sa.provider | capitalize }}</a>
+                </li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+        </li>
+      {% endfor %}
+    	<li class="voce">
+    	  <a href="/jobs/">
+    		  <img src="/images/time/time-voce.jpg" alt="Você">
+    	  </a>
+  		  <h3>Você</h3>
+  		  <p>Faça parte do time!</p>
+    	</li>
+    </ul>
+
+  </div>
+</section> <!-- /time -->
+
+<div class="videothumbs our-team-videos">
+  <div class="containner">
+
+    <ul>
+      <li>
+        <a href="http://www.youtube.com/watch?feature=player_embedded&v=6KuOCJtfB9Q" rel="prettyPhoto">
+          <img src="/images/eventos/umdianaherio.jpg">
+        </a>
+        <h5>Um dia na HE:labs</h5>
+      </li>
+      <li>
+        <a href="http://www.youtube.com/watch?feature=player_embedded&v=uRIv37JZNtE" rel="prettyPhoto">
+          <img src="/images/eventos/churrasco.jpg">
+        </a>
+        <h5>Churrasco</h5>
+      </li>
+      <li>
+        <a href="http://www.youtube.com/watch?feature=player_embedded&v=kTJld0J7cp0" rel="prettyPhoto">
+          <img src="/images/eventos/fimdeano.jpg">
+        </a>
+        <h5>Festa de Ano Novo</h5>
+      </li>
+    </ul>
+
+  </div>
+</div> <!-- /videothumbs -->
+
+<div class="bottom-nav">
+  <a class="red-button" href="/sobre-nos/">
+	  Mais sobre a empresa
+  </a>
+</div>
+
+<script type="text/javascript">
+  mixpanel.track_links(".red-button", "Clicked - Mais sobre a empresa");
+</script>

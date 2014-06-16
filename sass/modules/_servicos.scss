@@ -1,0 +1,110 @@
+@charset "utf-8";
+
+
+/* ====================
+Services
+==================== */
+
+.services {
+  padding: 35px 0 20px 0;
+  @include clearfix;
+  
+  .containner {
+    width: 60%;
+    padding-right: 20%;
+    padding-left: 20%;
+  }
+
+  h3 {
+    text-transform: uppercase;
+    font-size: $font-big;
+    margin: 0 0 20px 0;
+    color: #000;
+    cursor: pointer;
+    
+    strong {
+      width: 40px;
+      height: 40px;
+      margin-right: 10px;
+      font-size: 42px;
+      display: inline-block;
+      text-align: center;
+      line-height: 35px;
+      color: $grey2;
+      float: left;
+    }
+    
+    span {
+      margin-left: 60px;
+      display: block;
+    }
+    
+    &:hover {
+      opacity: .7;
+    }
+  }
+
+  p {
+    font-size: 21px;
+    line-height: 36px;
+    margin-left: 60px;
+  }
+
+}
+
+.services:nth-child(even) {background: $light-grey1; }
+.services:nth-child(odd) {background: $light-grey2; }
+
+.service-02 .service-entry,
+.service-03 .service-entry,
+.service-04 .service-entry,
+.service-05 .service-entry,
+.service-06 .service-entry,
+.service-07 .service-entry,
+.service-08 .service-entry, {
+  display: none;
+}
+
+#to-service-02,
+#to-service-03,
+#to-service-04,
+#to-service-05,
+#to-service-06,
+#to-service-07,
+#to-service-08 {
+  width: 30px;
+  height: 30px;
+  background: url("/images/services-arrow.png") left no-repeat;
+  display: inline-block;
+  text-indent: -9999px;
+  margin: 10px 0 25px 60px;
+  cursor: pointer;
+
+  &:hover {
+    opacity: .8;
+  }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min--moz-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 240dpi) {
+
+    #to-service-02,
+    #to-service-03,
+    #to-service-04,
+    #to-service-05,
+    #to-service-06,
+    #to-service-07,
+    #to-service-08 {
+      background: url("/images/services-arrow@2x.png") left no-repeat;
+      background-size: 30px 30px;
+    }
+
+}
+
+.anchor {
+  display: block;
+  height: 115px; /*same height as header*/
+  margin-top: -115px; /*same height as header*/
+  visibility: hidden;
+}

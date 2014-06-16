@@ -1,0 +1,109 @@
+---
+layout: english
+title: Web Software Development
+description: HE:labs is pioneer in web development, web applications, SaaS and Cloud Computing.
+pt: /
+---
+
+<div id="home">
+  <section class="hero">
+    <div class="containner">
+      <h2>Extreme Agile Development</h2>
+      <h3>We are specialists in web products</h3>
+      <a href="http://www.hemobile.com.br" class="logo-tip-trigger">
+        and mobile too!
+        <span><img src="/images/logo-hemobile.jpg" alt="HE:mobile"></span>
+      </a>
+    </div>
+  </section> <!-- /hero cover -->
+
+  <section class="what-we-do">
+    <div class="containner">
+      <article>
+        <h4>What we do</h4>
+        <p>We make outstanding web products from the idea to launch. It includes apps, e-commerce, enterprise software, cloud applications and any kind of software for internet.</p>
+      </article>
+      <article>
+          <h4>How we do</h4>
+          <p>We use the latest methodologies and practices of product development. We use Design Thinking, Lean Startup and Agile Development to transform your idea in a real product.</p>
+      </article>
+      <article>
+          <h4>Who we are</h4>
+          <p>We are a multidisciplinary team consisting of programmers, analysts, designers, hackers, and other experts in cutting-edge technologies best suited to solve your problem.</p>
+      </article>
+    </div>
+  </section> <!-- /What we do -->
+
+  <section class="our-clients">
+    <div class="containner">
+      <h4>Our Clients</h4>
+      <p>He help startups e big companies in Brazil and around the world. These are some of our clients.</p>
+      <ul>
+        <li>
+          <img src="/images/home/clients-espn.png">
+          <h3>Espn<span>Brazil</span></h3>
+        </li>
+        <li>
+          <img src="/images/home/clients-early-shares.png">
+          <h3>EarlyShares<span>United States</span></h3>
+        </li>
+        <li>
+          <img src="/images/home/clients-uol.png">
+          <h3>Uol<span>Brazil</span></h3>
+        </li>
+        <li>
+          <img src="/images/home/clients-brand-star-me.png">
+          <h3>BrandStarMe<span>England</span></h3>
+        </li>
+        <li>
+          <img src="/images/home/clients-samba-ads.png">
+          <h3>Samba Ads<span>Brazil</span></h3>
+        </li>
+        <li>
+          <img src="/images/home/clients-locaweb.png">
+          <h3>Locaweb<span>Brazil</span></h3>
+        </li>
+        <li>
+          <img src="/images/home/clients-atende-simples.png">
+          <h3>Atende Simples<span>Brazil</span></h3>
+        </li>
+        <li>
+          <img src="/images/home/clients-movingscripts.png">
+          <h3>MovingScripts<span>United States</span></h3>
+        </li>
+      </ul>
+    </div>
+  </section><!-- /our clients -->
+
+  <section class="testmonial">
+    <div class="containner">
+      <blockquote>
+        My experience with HE:labs was great and the project was a huge success. What you guys did and your skills in web development make any task seem easy.
+      </blockquote>
+      <p>Maurice Lopes, <a href="/en/works/early-shares" title="View More">Early Shares</a></p>
+    </div>
+  </section><!-- /Testimonials -->
+
+  <section class="our-blog">
+    {% raw %}
+      <script id="blog-posts" type="text/x-handlebars-template" data-no-instant="true">
+        <div class="containner">
+          <h4>Our Blog</h4>
+          <p>We write about bussines, design and development. Check out our latest posts.</p>
+          {{#each posts}}
+            <article>
+              <h5><a href="{{url}}" data-no-instant>{{title}}</a></h5>
+              <p>By <span>{{author}}</span> at <span>{{date}}</span></p>
+            </article>
+          {{/each}}
+        </div>
+      </script>
+    {% endraw %}
+  </section><!-- /Our Blog -->
+</div>
+
+<div class="bottom-nav">
+  <a class="red-button" href="/en/love/">
+    Why love us?
+  </a>
+</div>

@@ -1,0 +1,97 @@
+---
+layout: default
+---
+
+<div id="profile">
+
+  <section class="introduction">
+    <article>
+      <figure>
+        <img src="{{ page.image }}" alt="{{ page.full_name }}">
+      </figure>
+      <h2>{{ page.full_name }}</h2>
+      <h3 class="job-title">
+        {% if page.job_cool %}
+          {{ page.job_cool }}
+        {% else %}
+          {{ page.job_title }}
+        {% endif %}
+      </h3>
+    </article>
+  </section> <!-- /introduction -->
+
+  <section class="bio">
+    <div class="containner">
+      <article>
+        {% for line in page.bio %}
+          <p>{{ line }}</p>
+        {% endfor %}
+
+
+        {% if page.skills %}
+          <h4>Skills</h4>
+          <div class="skill-list">
+            {% for skill in page.skills %}
+              <span class="skill-tag">
+                {{ skill }}
+              </span>
+            {% endfor %}
+          </div>
+        {% endif %}
+
+        <h4>Social</h4>
+        <ul class="social-links">
+          {% if page.twitter %}<li><a href="https://twitter.com/{{ page.twitter }}" class="profile-twitter">@{{ page.twitter }}</a></li>{% endif %}
+          {% if page.dribbble %}<li><a href="http://dribbble.com/{{ page.dribbble }}" class="profile-dribbble">{{ page.dribbble }}</a></li>{% endif %}
+          {% if page.github %}<li><a href="https://github.com/{{ page.github }}" class="profile-github">{{ page.github }}</a></li>{% endif %}
+          {% if page.facebook %}<li><a href="https://www.facebook.com/{{ page.facebook }}" class="profile-facebook">{{ page.full_name }}</a></li>{% endif %}
+        </ul>
+      </article>
+    </div>
+  </section> <!-- /bio -->
+
+  {% if page.quote %}
+    <section class="quote">
+      <div class="containner">
+        <div class="cote">
+          <p>"{{ page.quote.content }}"</p>
+          <p class="signature">&mdash; {{ page.quote.author }}</p>
+        </div>
+      </div>
+    </section> <!-- /quote -->
+  {% endif %}
+
+  {% if page.projects %}
+    <section class="projects-worked">
+      <div class="containner">
+        <h2>Projetos</h2>
+        <ul>
+          {% for slug in page.projects %}
+            <li>
+              {% for project in site.data.mvp.projects %}
+                {% if project.slug == slug %}
+                  <img src="{{ project.image }}" alt="{{ project.name }}">
+                  <h3>{{ project.name }}</h3>
+                {% endif %}
+              {% endfor %}
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </section> <!-- /projects-worked -->
+  {% endif %}
+
+
+  {% if page.blogposts %}
+    <section class="blog-posts">
+      <div class="containner">
+        <h2>Posts no Blog</h2>
+        {% for blogpost in page.blogposts %}
+          <article>
+            <h3><a href="{{ blogpost.url }}" data-no-instant>{{ blogpost.title }}</a></h3>
+          </article>
+        {% endfor %}
+      </div>
+    </section> <!-- /blog-posts -->
+  {% endif %}
+</div>

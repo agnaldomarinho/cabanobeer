@@ -1,0 +1,575 @@
+projects:
+  -
+    name: Barra UOL
+    url: '#'
+    slug: uol-barra
+    image: /images/projects/uol-barra.jpg
+    description: Barra responsiva do portal UOL.
+  -
+    name: MYGIFT.IO
+    url: '#'
+    slug: mygiftio
+    image: /images/projects/mygiftio.jpg
+    description: Rede social para compartilhar interesses e escolher melhores presentes.
+  -
+    name: Pro2You
+    url: '#'
+    slug: pro2you
+    image: /images/projects/pro2you.jpg
+    description: Coaching Online. Desenvolvimento Pessoal e Profissional acessível de qualquer lugar.
+  -
+    name: Qstão.com
+    url: '#'
+    slug: qstao
+    image: /images/projects/qstao.jpg
+    description: Site de treinamento para questões de prova de concurso público, com apoio de professores.
+  -
+    name: Watch ESPN
+    url: '#'
+    slug: espn-watch
+    image: /images/projects/espn-watch.jpg
+    description: Portal de vídeos com conteúdo exclusivo ESPN para afiliados
+    highlighted: true
+  -
+    name: ESPN Temporeal
+    url: '#'
+    slug: espn-realtime
+    image: /images/projects/espn-realtime.jpg
+    description: Plataforma para cobertura e transmissão de eventos em tempo real.
+  -
+    name: Cliqx
+    url: '#'
+    slug: cliqx
+    image: /images/projects/cliqx.jpg
+    description: Site de fotografia com foco em eventos e parceria entre prestadores de serviço da área.
+  -
+    name: PagNet
+    url: '#'
+    slug: pagnet
+    image: /images/projects/pagnet.jpg
+    description: Site de controle de gestao financeira de entretenimentos.
+  -
+    name: Seu Mecânico
+    url: '#'
+    slug: mecanicoapp
+    image: /images/projects/mecanicoapp.jpg
+    description: Site para donos de automóveis encontrarem serviços.
+  -
+    name: 747700 (Tattoo)
+    url: '#'
+    slug: tattoo
+    image: /images/projects/tattoo.jpg
+    description: Interessados por uma arte para uma tattoo podem lançar concursos e receber propostas dos artistas cadastrados.
+    highlighted: true
+  -
+    name: Shag
+    url: '#'
+    slug: shag
+    image: /images/projects/shag.jpg
+    description: Aplicativo para iOS.
+    highlighted: true
+  -
+    name: RSVP
+    url: '#'
+    slug: rsvp
+    image: /images/projects/rsvp.jpg
+    description: Sistema de rsvp para congressos na área de medicina.
+    highlighted: true
+  -
+    name: RentJiffy
+    url: '#'
+    slug: rentjiffy
+    image: /images/projects/rentjiffy.jpg
+    description: Properties, tenants and payments management.
+  -
+    name: Rango Time
+    url: '#'
+    slug: rangotime
+    image: /images/projects/rangotime.jpg
+    description: Cadastro e busca de receitas para pessoas com restrições alimentares.
+  -
+    name: Mailing He:labs
+    url: 'http://helabs.com.br/mailing/'
+    slug: projetomailing
+    image: /images/projects/projetomailing.jpg
+    description: As notícias mais relevantes para o mundo da HE:labs semanalmente!
+  -
+    name: Project Builder
+    url: '#'
+    slug: projectbuilder
+    image: /images/projects/projectbuilder.jpg
+    description: Software de Gerenciamento de Projetos, Portfolios e Programas.
+    highlighted: true
+  -
+    name: Project Management Canvas Mobile
+    url: '#'
+    slug: pmcanvas
+    image: /images/projects/pmcanvas.png
+    description: Software de Gerênciamento de Projeto baseado na metodologia do Project Management Canvas.
+  -
+    name: PetRoomie
+    url: 'http://www.petroomie.com.br/'
+    slug: petroomie
+    image: /images/projects/petroomie.jpg
+    description: Serviço que oferece hospedagem e serviços para pets.
+    highlighted: true
+  -
+    name: Moving Scripts
+    url: '#'
+    slug: movingscripts
+    image: /images/projects/movingscripts.jpg
+    description: Comunidade online onde pessoas podem exercer sua imaginação, criando ideias originais para historias de ficção.
+    highlighted: true
+  -
+    name: Meu Doutor
+    url: '#'
+    slug: meudoutor
+    image: /images/projects/meudoutor.jpg
+    description: Serviço para cadastro de médicos voluntários e agendamento de consultas.
+  -
+    name: Like My Tip
+    url: '#'
+    slug: likemytip
+    image: /images/projects/likemytip.jpg
+    description: Aplicativo que permite aos usuários compartilharem dicas em suas fotos no Facebook.
+    highlighted: true
+  -
+    name: HoraExtra
+    url: 'http://horaextra.org/'
+    slug: horaextra
+    image: /images/projects/horaextra.jpg
+    description: Encontro semanal de desenvolvedores para trocar idéias e beber um chopp.
+  -
+    name: 'Hack &amp; Design Conference'
+    url: '#'
+    slug: hdc
+    image: /images/projects/hdc.jpg
+    description: Evento sobre Design e Programação organizado pela HE:labs.
+  -
+    name: HBeauty (HE:mobile)
+    url: '#'
+    slug: hbeauty
+    image: /images/projects/hbeauty.jpg
+    description: Aplicativo para agendar horários com salões de beleza.
+  -
+    name: GrokPodcast
+    url: 'http://www.grokpodcast.com/'
+    slug: grokpodcast
+    image: /images/projects/grokpodcast.jpg
+    description: Podcast sobre desenvolvimento Web, empreendedorismo e tecnologia em geral.
+  -
+    name: ESPN Mobile
+    url: '#'
+    slug: espn-mobile
+    image: /images/projects/espn-mobile.jpg
+    description: Versão com a experiência otimizada para mobile no site da espn.com.br.
+    highlighted: true
+  -
+    name: ESPN.com.br
+    url: '#'
+    slug: espn-br
+    image: /images/projects/espn-br.jpg
+    description: Nova home page da ESPN.com.br
+  -
+    name: ESPN API
+    url: '#'
+    slug: espn-api
+    image: /images/projects/espn-api.jpg
+    description: API (application programming interface) com o conteúdo do portal da espn.com.br.
+    highlighted: true
+  -
+    name: EarlyShares
+    url: 'http://www.earlyshares.com/'
+    slug: earlyshares
+    image: /images/projects/earlyshares.jpg
+    description: Um site de crowdfunding onde pequenos investimentos podem promover grandes idéias.
+    highlighted: true
+  -
+    name: Dona Cegonha
+    url: "#"
+    slug: donacegonha
+    image: /images/projects/donacegonha.png
+    description: Rede Social que permite organizar e compartilhar os momentos especiais de um bebê.
+  -
+    name: DesenvolvimentoAgil.com.br
+    url: 'http://desenvolvimentoagil.com.br/'
+    slug: desenvolvimentoagil
+    image: /images/projects/desenvolvimento-agil.jpg
+    description: Um guia Open Source sobre desenvolvimento ágil abordando XP e SCRUM.
+  -
+    name: Coobo
+    url: "#"
+    slug: coobo
+    image: /images/projects/coobo.jpg
+    description: Software para controle e gerenciamento de processos de compras.
+    highlighted: true
+  -
+    name: Atende Simples
+    url: "http://www.atendesimples.com/"
+    slug: atendesimples
+    image: /images/projects/atendesimples.jpg
+    description: Permite que pequenas empresas ofereçam atendimento telefônico profissional e completo aos seus clientes.
+    highlighted: true
+  -
+    name: Estou Jogando
+    url: "http://estoujogando.com.br/"
+    slug: estoujogando
+    image: /images/projects/estoujogando.jpg
+    description: Rede Social para os gamers brasileiros.
+    highlighted: true
+  -
+    name: Alavancar.me
+    url: "#"
+    slug: alavancarme
+    image: /images/projects/alavancarme.jpg
+    description: Um marketplace de cursos com mais de 20 instituições de ensino associadas.
+  -
+    name: Social Fly
+    url: "http://www.socialfly.com.br/"
+    slug: socialfly
+    image: /images/projects/socialfly.jpg
+    description: Um site de divulgação de vídeos de valor social.
+  -
+    name: Mea Pets
+    url: "http://www.meapets.com.br/"
+    slug: meapets
+    image: /images/projects/meapets.jpg
+    description: Uma rede social voltada para o universo dos animais de estimação.
+  -
+    name: The Open Compass
+    slug: theopencompass
+    url: "http://www.theopencompass.com/"
+    image: /images/projects/theopencompass.jpg
+    description: Site para compartilhar dicas de turismo.
+  -
+    name: My Humble
+    url: "http://www.myhumble.com.br"
+    slug: my-humble
+    image: /images/projects/my-humble.jpg
+    description: Serviço que permite pesquisar o nível de satisfação dos clientes.
+  -
+    name: Perfil Plug
+    url: "http://www.perfilplug.com"
+    slug: perfilplug
+    image: /images/projects/perfilplug.jpg
+    description: Serviço que permite montar um perfil de consumo, acumular pontos e depois trocá-los por prêmios.
+    highlighted: true
+  -
+    name: Assed & Cavalcante
+    url: "http://www.assedcavalcante.com.br/"
+    slug: assedcavalcante
+    image: /images/projects/assedcavalcante.jpg
+    description: Atendimento exclusivo via site para compra e venda de imóveis no Rio de Janeiro, com opções exclusivas se adequando ao perfil de usuário.
+  -
+    name: Sala de Ideias
+    url: "http://www.saladeideias.com.br/"
+    slug: saladeideias
+    image: /images/projects/saladeideias.jpg
+    description: Serviço onde psicólogos ajudam as pessoas a terem uma vida com mais satisfação e equilíbrio.
+    highlighted: true
+  -
+    name: Niili
+    url: "http://www.niili.com.br/"
+    slug: niili
+    image: /images/projects/niili.jpg
+    description: Aplicativo exclusivo para mulheres controlarem seus ciclos menstruais, com a possibilidade de notificar seus amigos sobre eventos diários dessa fase.
+  -
+    name: Samba Ads
+    slug: samba-ads
+    url: "#"
+    image: /images/projects/samba-ads.jpg
+    description: Serviço de monetização de videos para produtores de conteúdo e publishers.
+  -
+    name: Sou do Esporte
+    url: http://www.soudoesporte.com.br
+    image: /images/projetos/mvp/soudoesporte.jpg
+  -
+    name: Seu Orientador
+    url: http://www.seuorientador.com.br
+    image: /images/projetos/mvp/seuorientador.jpg
+  -
+    name: BRtrax
+    url: http://app.brtrax.com
+    image: /images/projetos/mvp/brtrax.jpg
+  -
+    name: RIO EM FOCO
+    url: http://www.rioemfoco.com.br
+    image: /images/projetos/mvp/rioemfoco.jpg
+  -
+    name: Dunno
+    url: http://www.dunno.vc
+    slug: dunno
+    image: /images/projects/dunno.jpg
+    description: Serviço que tem como objetivo engajar e motivar alunos durante aulas e palestras.
+  -
+    name: Vita Corporativa
+    url: "http://www.vitacorporativa.com.br/"
+    image: /images/projetos/mvp/vitacorporativa.jpg
+  -
+    name: Alugue Campo e Praia
+    url: http://www.aluguecampoepraia.com.br/
+    image: /images/projetos/mvp/alugue-campo-e-praia.jpg
+  -
+    name: Timeeline
+    url: http://www.timeeline.com/
+    image: /images/projetos/mvp/timeeline.jpg
+  -
+    name: Meu Baby Chá
+    url: http://www.meubabycha.com.br/
+    image: /images/projetos/mvp/meu-baby-cha.jpg
+  -
+    name: Tempo Eh Dinheiro
+    url: http://www.tempoehdinheiro.com.br/
+    image: /images/projetos/mvp/tempo-eh-dinheiro.jpg
+  -
+    name: "Click&amp;Movimento"
+    url: http://www.clickemovimento.com.br
+    image: /images/projetos/mvp/clickemovimento.jpg
+  -
+    name: MIIDAH
+    slug: miidah
+    url: http://app.miidah.com
+    image: /images/projects/miidah.jpg
+    description: Site de receitas aonde os usuários podem divulgar suas habilidades culinárias em redes sociais.
+  -
+    name: GiftBar
+    url: http://app.giftbar.com.br/
+    image: /images/projetos/mvp/giftbar.jpg
+  -
+    name: Xtools
+    url: "#"
+    image: /images/projetos/mvp/xtools.jpg
+  -
+    name: Cuponizando
+    url: http://ofertas.cuponizando.com.br/
+    slug: cuponizando
+    image: /images/projects/cuponizando.jpg
+    description: Serviço para restaurantes criarem campanhas com cupons contendo descontos.
+  -
+    name: Innterpretti
+    url: http://www.innterpretti.com.br/
+    image: /images/projetos/mvp/innterpretti.jpg
+  -
+    name: Orçamento Rápido
+    url: http://app.orcamentorapido.com.br/
+    image: /images/projetos/mvp/orcamento-rapido.jpg
+  -
+    name: Meu Incrível Memo
+    url: '#'
+    slug: meu-incrivel-memo
+    image: /images/projects/meu-incrivel-memo.jpg
+    description: Serviço de impressão de fotos do Facebook ou Instagram em cartão ou imã.
+  -
+    name: Mo Recipes
+    url: http://morecipes.com.br/
+    slug: mo-recipes
+    image: /images/projects/mo-recipes.jpg
+    description: Serviço que permite divulgar suas próprias receitas para amigos e familiares.
+  -
+    name: Horus
+    url: "#"
+    slug: horus
+    image: /images/projects/horus.jpg
+    description: Serviço que reúne seus arquivos do Google Drive e o Dropbox.
+  -
+    name: Managerbook
+    url: http://managerbook.com.br/
+    slug: managerbook
+    image: /images/projects/managerbook.jpg
+    description: Software para gerênciar os indicadores KPI de empresas.
+    highlighted: true
+  -
+    name: Feedback Machine
+    url: http://app.feedback-machine.com/
+    image: /images/projetos/mvp/feedback-machine.jpg
+  -
+    name: Hintask
+    url: http://hintask.com/
+    image: /images/projetos/mvp/hintask.jpg
+  -
+    name: Shop My Shop
+    url: "#"
+    image: /images/projetos/mvp/shopmyshop.jpg
+  -
+    name: SMB Challenge
+    url: http://smbchallenge.com/
+    image: /images/projetos/mvp/smbchallenge.jpg
+  -
+    name: neighbourz
+    url: http://app.neighbourz.com
+    image: /images/projetos/mvp/neighbourz.jpg
+  -
+    name: hospedfácil
+    url: "#"
+    image: /images/projetos/mvp/hospedfacil.jpg
+  -
+    name: Landing Commerce
+    url: http://app.landingcommerce.com.br/
+    image: /images/projetos/mvp/landing-commerce.jpg
+  -
+    name: Mamãe eu Kero
+    url: http://www.mamaeeukero.com.br/
+    image: /images/projetos/mvp/mamaeeukero.jpg
+  -
+    name: Websimulado
+    url: http://www.websimulado.com.br/
+    slug: websimulado
+    image: /images/projects/websimulado.jpg
+    description: Software que oferece simulados para concursos públicos.
+    highlighted: true
+  -
+    name: Alik
+    url: http://www.alik.com.br/
+    image: /images/projetos/mvp/alik.jpg
+  -
+    name: NoTrombone
+    url: http://www.notrombone.com/
+    image: /images/projetos/mvp/no-trambone.jpg
+  -
+    name: Editora TIL
+    url: "#"
+    image: /images/projetos/mvp/no-screen.jpg
+  -
+    name: Game Quiz
+    url: http://apps.facebook.com/gamequizbr/
+    image: /images/projetos/mvp/gamequiz.jpg
+  -
+    name: Given 2 You
+    url: http://www.gv2u.com.br/
+    image: /images/projetos/mvp/given2you.jpg
+  -
+    name: Sparkel
+    url: "#"
+    image: /images/projetos/mvp/sparkel.jpg
+  -
+    name: Shopping Passion
+    url: "#"
+    image: /images/projetos/mvp/shopping-passion.jpg
+  -
+    name: LetsEvo
+    url: http://www.designoteca.com/
+    image: /images/projetos/mvp/letsevo.jpg
+  -
+    name: Netadvocacia
+    url: http://www.netadvocacia.com.br/
+    image: /images/projetos/mvp/netadvocacia.jpg
+  -
+    name: Ultrapasse
+    url: "http://www.ultrapasseweb.com/"
+    image: /images/projetos/mvp/ultrapasse.jpg
+  -
+    name: Publication of Labels
+    url: "#"
+    image: /images/projetos/mvp/pol.jpg
+  -
+    name: Turbotaxi
+    url: "#"
+    image: /images/projetos/mvp/turbotaxi.jpg
+  -
+    name: Propsharely
+    url: "http://www.propsharely.com/"
+    image: /images/projetos/mvp/propsharely.jpg
+  -
+    name: LMT
+    url: https://www.likemytip.com.br/
+    image: /images/projetos/mvp/likemytip.jpg
+  -
+    name: Zupty
+    url: http://www.zupty.com/
+    image: /images/projetos/mvp/zupty.jpg
+  -
+    name: Amigo não se Compra
+    url: http://www.amigonaosecompra.com.br/
+    image: /images/projetos/mvp/amigo-nao-se-compra.jpg
+  -
+    name: Sabtudo
+    url: "http://www.sabtudo.com.br/"
+    image: /images/projetos/mvp/sabtudo.jpg
+  -
+    name: Safe Tracking
+    url: http://safetracking.com.br/
+    image: /images/projetos/mvp/safe-tracking.jpg
+  -
+    name: ContaCal
+    url: http://app.contacal.com.br/
+    image: /images/projetos/mvp/contacal.jpg
+  -
+    name: Rank Monitor
+    url: "#"
+    image: /images/projetos/mvp/rank-monitor.jpg
+  -
+    name: Ideias
+    url: "#"
+    image: /images/projetos/mvp/ideias.jpg
+
+testimonials:
+  -
+    name: "Lucas Boscacci Lima"
+    company: "Dunno"
+    description: "É muito difícil encontrar uma equipe que consiga agregar real valor para o serviço. Valor este que está na energia e empenho de se trabalhar com paixão"
+  -
+    name: "Matheus Diaz e Ronnie Possatti"
+    company: "Horus"
+    description: "Superou nossas expectativas. Conseguimos priorizar exatamente os pontos mais importantes nesta primeira etapa."
+  -
+    name: "José Roberto H. da Gama"
+    company: "NetAdvocacia"
+    description: "Os aconselhamentos técnicos fizeram toda a diferença, a sensação ao final foi de ter recebido mais do que havia sido planejado e contratado."
+  -
+    name: "Kauê Linden"
+    company: "Game Guiz"
+    description: "O processo foi uma verdadeira aula de como organizar projetos ligados ao desenvolvimento de software."
+  -
+    name: "Amure Pinho"
+    company: "Amigo Não Se Compra / SyncMobile"
+    description: "O conhecimento técnico e a habilidade do time em entender o projeto e desenhar o MVP torna o produto mais inteligente."
+  -
+    name: "Andre Diamand"
+    company: "Zupty / VentureOne"
+    description: "Não é só software amado em 3 dias, eles nos ensinam na prática o que é um projeto lean de verdade, tocado com muita qualidade e capricho."
+  -
+    name: "Pablo Braga"
+    company: "Safetracking / Sidetech"
+    description: "O sistema defini o que é realmente prioritário e você pode desenvolver o restante posteriormente, quando os clientes ou investidores se interessarem pelo projeto."
+
+testimonials-en:
+  -
+    name: "Matheus Diaz e Ronnie Possatti"
+    company: "Horus"
+    description: "The Startup DEV service has overcome our expectations. We were able to emphasize exactly the most important targets for the first stage. We're quite sure that the quickly and skillfully developed product was a great first step for our project! Thank you for the experience."
+  -
+    name: "Rodrigo Soares"
+    company: "Hintask"
+    description: "We can only thank Startup DEV. The development team was extremely professional and managed to surpass all expectations. To have a fully functional prototype with a design of choice in 48 hours is something monstrous. Congratulations!"
+  -
+    name: "José Roberto H. da Gama"
+    company: "NetAdvocacia"
+    description: "My experience with Startup DEV was great. The work was focused, delivered on time and with quality. Moreover, the technical advice made ​​all the difference, for the feeling at the end was to have received more than what had been planned and paid for."
+  -
+    name: "Kauê Linden"
+    company: "Game Guiz"
+    description: "To develop our project through Startup DEV was the quickest way I found to get the project we envisioned on air. Besides leaving satisfied with my design online in just three days, the process was a real lesson on how to organize projects related to software development. I recommend it and I'm sure I will be back soon for other rounds."
+  -
+    name: "Amure Pinho"
+    company: "Amigo Não Se Compra / SyncMobile"
+    description: "The work done by the team at Startup DEV is fantastic. Technical knowledge and the ability of the team to understand the project and draw the MVP not only ensures the delivery of the project within an exceptional time frame, but it makes the final product smarter. I really approve it!"
+  -
+    name: "Diego Ivo"
+    company: "Rank Monitor"
+    description: "With the help of the Startup DEV staff, Conversion could market an innovative SEO tool, simple and very functional. Our tool had millions of pageviews, which was very important to us."
+  -
+    name: "Andre Diamand"
+    company: "Zupty / VentureOn"
+    description: "The Startup DEV team not only brings the beloved software in three days, but in this time they also teach us in practice what is a real LEAN project, conducted with quality and care."
+  -
+    name: "Pablo Braga"
+    company: "Safetracking / Sidetech"
+    description: "Sidetech's experience with Startup DEV was very good. The proposed format is very productive because during the initial meeting it uses techniques which give an overview of the project before you even start. The points system gives you the flexibility to define what is really a priority and what can be developed later, when customers or investors take an interest in your project. <br> The staff is super capable and the development work was actually done in 48 hours."
+  -
+    name: "Joaquim Torres"
+    company: "ContaCal"
+    description: "The Startup DEV staff was essential to the realization of ContaCal. They not only know a lot about software development, but they have lots of experience in the web business, which makes them great partners for creating an MVP."
+  -
+    name: "Mario Sousa de Alencar"
+    company: "Shopping Passion"
+    description: "I can confirm that Startup DEV is full of extremely experienced people providing a great service for those who wish to start a business on the internet but do not have the technological knowledge to do it. However, the methodology is also very effective for entrepreneurs who already have a clearly defined MVP, so that in fact the idea can be transformed into a prototype to be tested."

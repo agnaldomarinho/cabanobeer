@@ -1,0 +1,68 @@
+@charset "utf-8";
+
+/* Fonts Variables */
+
+$sans_serif: 'Open Sans', Arial, 'Helvetica Neue', Helvetica, sans-serif;
+
+$font-small: 12px;
+$font-medium: 15px;
+$font-medium2: 17px;
+$font-large: 24px;
+$font-big: 36px;
+
+
+/* Colors Variables */
+
+$grey1: #e8e8e8;
+$grey2: #ddd;
+$grey3: #666;
+$grey4: #333;
+
+$light-grey1: #fafafa;
+$light-grey2: #f4f4f4;
+
+$he_red: #b80606;
+
+$atende_simples: #2271B3;
+
+/* Mixins */
+
+@mixin clearfix {
+  &:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+    min-height: 0;
+  }
+}
+
+@mixin red_gradient {
+  background: $he_red;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, $he_red), color-stop(100%, #9b0505)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, $he_red 0%, #9b0505 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, $he_red 0%, #9b0505 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, $he_red 0%, #9b0505 100%); /* IE10+ */
+  background: linear-gradient(top bottom, $he_red 0%, #9b0505 100%); /* W3C */
+}
+
+@mixin fade_effect {
+  @include vendor-prefix(animation-duration, .4s);
+  @include vendor-prefix(animation-name, slidein);
+  @include vendor-prefix(animation-fill-mode, both);
+  @include vendor-prefix(animation-timing-function, ease-in);
+}
+
+@mixin round_borders($radius) {
+  @include vendor-prefix(border-radius, $radius);
+}
+
+@mixin vendor-prefix($name, $argument) {
+  -webkit-#{$name}: #{$argument};
+  -ms-#{$name}: #{$argument};
+  -moz-#{$name}: #{$argument};
+  -o-#{$name}: #{$argument};
+  #{$name}: #{$argument};
+}

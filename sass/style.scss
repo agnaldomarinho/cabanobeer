@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+// Core
+@import "core/variables";
+@import "core/main";
+
+// Modules: Global nav
+@import "modules/home";
+@import "modules/magica";
+@import "modules/love";
+@import "modules/sobrenos";
+@import "modules/time";
+@import "modules/profile";
+@import "modules/trabalho";
+@import "modules/contato";
+
+// Modules: Cases
+@import "modules/atendesimples";
+@import "modules/espnmobile";
+
+// Services
+@import "modules/servicos";
+@import "modules/mvp";
+
+// Modules: Secondary Pages
+@import "modules/valores";
+@import "modules/comunidade";
+@import "modules/opensource";
+@import "modules/mailing";
+@import "modules/mediakit";
+@import "modules/jobs";
+@import "modules/cases";
+
+// Responsive
+@import "core/responsive";
+
+// Plugins
+@import "plugins/prettyPhoto";
+@import "plugins/tiptip";
+@import "plugins/slider";

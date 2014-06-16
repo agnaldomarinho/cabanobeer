@@ -1,0 +1,25 @@
+lsi: false
+pygments: true
+markdown: kramdown
+exclude:
+- 'CNAME'
+- 'config.rb'
+- 'Gemfile'
+- 'Gemfile.lock'
+- 'Gruntfile.js'
+- 'lib'
+- 'package.json'
+- 'Rakefile'
+- 'README.md'
+- 'sass'
+- 'spec'
+- 'Procfile'
+- 'Guardfile'
+- '.sass-cache'
+- 'node_modules'
+
+permalink: pretty
+
+gems:
+  - jekyll-redirect-from
+  - jekyll-sitemap

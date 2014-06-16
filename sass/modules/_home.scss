@@ -1,0 +1,358 @@
+@charset "utf-8";
+
+
+/* ====================
+Home
+==================== */
+
+/* Hero Cover */
+
+#home section.hero {
+  background: $grey3 url("/images/home/hero-image.jpg");
+  padding: 160px 0 80px;
+  text-align: center;
+  border-bottom: 4px solid $grey2;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  h2 {
+    color: #fff;
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 100px;
+    font-size: 82px;
+    word-spacing: 0.06em;
+    letter-spacing: 0.04em;
+  }
+
+  h3,
+  .logo-tip-trigger {
+    margin: 80px 0 20px;
+    color: #fff;
+    font-size: 22px;
+    word-spacing: 0.15em;
+    letter-spacing: 0.06em;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+
+  .logo-tip-trigger {
+    text-decoration: none;
+    border-bottom: 1px dotted #fff;
+    position: relative;
+    font-size: 20px;
+
+    span {
+      @include round_borders (4px);
+      width: 160px;
+      height: auto;
+      line-height: 20px;
+      left: 50%;
+      margin-left: -87px;
+      background: #fff;
+      text-indent: 0px;
+      position: absolute;
+      pointer-events: none;
+      text-align: center;
+      top: -120px;
+      opacity: 0;
+      transition: all 0.3s ease-in-out;
+      z-index: 10;
+    }
+
+    img {
+      @include round_borders (4px);
+      width: 160px;
+      padding: 10px;
+      background: #fff;
+    }
+
+    span:before,
+    span:after {
+      content: '';
+      position: absolute;
+      bottom: -10px;
+      left: 50%;
+      margin-left: 0;
+      width: 0;
+      height: 0;
+      border-left: 10px solid transparent;
+      border-right: 10px solid transparent;
+      border-top: 10px solid #fff;
+    }
+
+    span:after {
+      border-top: 10px solid #fff;
+      display: none;
+    }
+
+    &:hover {
+
+      span {
+        opacity: 1;
+        top: -80px;
+      }
+    }
+  }
+}
+
+
+/* What we do */
+
+#home section.what-we-do {
+  background: #fff;
+  padding: 0 0 30px;
+  @include clearfix;
+
+  &:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-top: 12px solid $grey2;
+    position: relative;
+    top: 0px;
+    left: 50%;
+    margin-left: -10px;
+  }
+
+  article {
+    width: 65%;
+    margin: 50px auto;
+
+    h4 {
+      font-size: 24px;
+      letter-spacing: 0.04em;
+      font-weight: 500;
+      color: $he_red;
+      text-align: center;
+      text-transform: uppercase;
+    }
+
+    p {
+      margin-top: 25px;
+      font-size: $font-medium2;
+      color: rgba( $grey3, 0.9 );
+      line-height: 34px;
+      text-align: center;
+
+      em { color: #000; }
+    }
+
+
+    &:after {
+      content: '';
+      display: block;
+      background: url('/images/home/divider.png');
+      width: 33px;
+      height: 9px;
+      margin: 50px auto 0;
+    }
+
+    &:last-child:after { display: none; }
+  }
+}
+
+
+
+/* Our clients */
+
+#home section.our-clients {
+  padding: 60px 0 50px 0;
+  background-color: $light-grey1;
+  border-top: 1px solid $light-grey2;
+
+  h4 {
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    word-spacing: 0.15em;
+    color: $grey4;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  p {
+    margin-top: 25px;
+    font-size: 16px;
+    text-align: center;
+    color: rgba( $grey3, 0.8 );
+  }
+
+  ul {
+    width: 100%;
+    overflow: hidden;
+    margin-top: 60px;
+    text-align: center;
+
+    li {
+      width: 22%;
+      height: 210px;
+      background-color: #fff;
+      border-radius: 3px;
+      margin: 0 1% 30px 1%;
+      border: 1px solid $grey1;
+      display: inline-block;
+
+      img {
+        width: 100%;
+        margin: auto;
+        display: block;
+      }
+
+      h5 {
+        width: 100%;
+        border-top: 1px solid $light-grey2;
+        font-size: $font-medium2;
+        padding-top: 14px;
+
+        span {
+          font-weight: normal;
+          display: block;
+          color: rgba( $grey3, 0.6 );
+          margin-top: 5px;
+          font-size: $font-medium;
+        }
+      }
+
+      &:nth-child(4n+4) { margin-right: 0; }
+    }
+  }
+}
+
+
+/* Testimonial */
+
+#home section.testmonial {
+  padding: 20px 0 25px 0;
+  background-color: $grey4;
+  @include clearfix;
+
+  &:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-top: 12px solid $light-grey1;
+
+    position: relative;
+    top: -23px;
+    margin-left: -10px;
+    left: 50%;
+  }
+
+  blockquote {
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+    color: $grey2;
+    font-size: 22px;
+    line-height: 40px;
+    font-weight: 300;
+    text-align: center;
+    font-style: italic;
+  }
+
+  figure {
+    width: 80px;
+    margin: 10px auto 0;
+  }
+
+  p {
+    text-align: center;
+    color: rgba( $light-grey2, 0.6 );
+    display: block;
+    margin-top: 10px;
+    
+    a {
+      color: $grey2;
+    }
+  }
+}
+
+
+/* Our Blog */
+
+#home section.our-blog {
+  padding: 60px 0 70px 0;
+  @include clearfix;
+
+  h4 {
+    font-size: 30px;
+    letter-spacing: 0.04em;
+    font-weight: 500;
+    color: $he_red;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  p {
+    margin: 20px 0 60px;
+    font-size: 16px;
+    text-align: center;
+    color: $grey3;
+  }
+
+  article {
+    width: 31%;
+    float: left;
+    margin-right: 25px;
+    text-align: left;
+
+    &:last-child { margin-right: 0; }
+
+    h5 {
+      margin: 0;
+
+      a {
+        font-size: 18px;
+        line-height: 32px;
+        font-weight: 600;
+        display: block;
+        color: $grey4;
+        text-decoration: underline;
+
+        &:hover { color: $he_red; }
+      }
+    }
+
+    p {
+      margin-top: 5px;
+      font-size: 12px;
+      line-height: 28px;
+      color: rgba( $grey3, 0.6 );
+      margin-bottom: 0;
+      text-align: left;
+
+      span { color: $grey3; }
+    }
+  } // article
+}
+
+
+/* Red Button */
+
+.red-button,
+.white-button {
+  width: 437px;
+  height: 60px;
+  background: url("/images/red-button.png") center no-repeat;
+  text-decoration: none;
+  font: 22px 'lato';
+  text-transform: uppercase;
+  padding-top: 35px;
+  padding-left: 70px;
+  text-align: left;
+  display: block;
+  margin: 0 auto;
+  z-index: 9999;
+  color: #fff;
+
+  &:hover { opacity: .8; }
+}

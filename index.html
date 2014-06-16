@@ -1,0 +1,124 @@
+---
+layout: default
+title: Web Software Development
+description: HE:labs é uma empresa pioneira em desenvolvimento de sistemas web, aplicativos web, SaaS e Cloud Computing.
+en: /en/
+---
+
+<div id="home">
+  <section class="hero">
+    <div class="containner">
+      <h2>Desenvolvimento Ágil ao Extremo</h2>
+      <h3>Especialistas em sistemas para internet</h3>
+      <a href="http://www.hemobile.com.br" class="logo-tip-trigger">
+        E mobile também!
+        <span><img src="/images/logo-hemobile.jpg" alt="HE:mobile"></span>
+      </a>
+    </div>
+  </section> <!-- /hero cover -->
+
+  <section class="what-we-do">
+    <div class="containner">
+      <article>
+        <h4>O que fazemos</h4>
+        <p>Nós fazemos produtos web fantásticos desde a ideia ao lançamento. Isso inclui <em>aplicativos</em>, <em>e-commerce</em>, <em>sistemas corporativos</em>, <em>aplicativos em cloud</em> e qualquer tipo de software para internet.</p>
+      </article>
+      <article>
+        <h4>Como fazemos</h4>
+        <p>Nós conhecemos as mais novas metodologias e práticas de desenvolvimento de produto. Usamos <em>Design Thinking</em>, <em>Lean Startup</em> e <em>Desenvolvimento Ágil</em> para transformar a sua ideia em um produto real.</p>
+      </article>
+      <article>
+        <h4>Quem somos</h4>
+        <p>Somos uma equipe multidisciplinar composta por <em>programadores</em>, <em>analistas</em>, <em>designers</em>, <em>hackers</em>, entre outros especialistas nas tecnologias de ponta mais adequadas para resolver o seu problema.</p>
+      </article>
+    </div>
+  </section> <!-- /What we do -->
+
+  <section class="our-clients">
+    <div class="containner">
+
+      <h4>Nossos Clientes</h4>
+      <p>Ajudamos startups e grandes empresas em todo o mundo. Estes são alguns de nossos clientes.</p>
+
+      <ul>
+        <li>
+          <img src="/images/home/clients-espn.png">
+          <h5>Espn<span>Brasil</span></h5>
+        </li>
+        <li>
+          <img src="/images/home/clients-early-shares.png">
+          <h5>EarlyShares<span>Estados Unidos</span></h5>
+        </li>
+        <li>
+          <img src="/images/home/clients-uol.png">
+          <h5>Uol<span>Brasil</span></h5>
+        </li>
+        <li>
+          <img src="/images/home/clients-brand-star-me.png">
+          <h5>BrandStarMe<span>Inglaterra</span></h5>
+        </li>
+        <li>
+          <img src="/images/home/clients-samba-ads.png">
+          <h5>Samba Ads<span>Brasil</span></h5>
+        </li>
+        <li>
+          <img src="/images/home/clients-locaweb.png">
+          <h5>Locaweb<span>Brasil</span></h5>
+        </li>
+        <li>
+          <img src="/images/home/clients-atende-simples.png">
+          <h5>Atende Simples<span>Brasil</span></h5>
+        </li>
+        <li>
+          <img src="/images/home/clients-movingscripts.png">
+          <h5>MovingScripts<span>Estados Unidos</span></h5>
+        </li>
+      </ul>
+    </div>
+  </section><!-- /our clients -->
+
+  <section class="testmonial">
+    <div class="containner">
+      <blockquote>
+        Fiquei muito satisfeito com o resultado, não só porque eles cumpriram com tudo que tinham prometido no início, mas principalmente pela qualidade do trabalho.
+      </blockquote>
+      <p>Andre, <a href="/cases/atende-simples" title="Veja a História do Atende Simples">Atende Simples</a>.</p>
+    </div>
+  </section><!-- /Testimonials -->
+
+  <section class="our-blog">
+    {% raw %}
+      <script id="blog-posts" type="text/x-handlebars-template" data-no-instant="true">
+        <div class="containner">
+          <h4>Nosso Blog</h4>
+          <p>Escrevemos sobre negócios, design e desenvolvimento. Confira nossos últimos posts.</p>
+          {{#each posts}}
+            <article>
+              <h5><a href="{{url}}" data-no-instant>{{title}}</a></h5>
+              <p>Por <span>{{author}}</span> em <span>{{date}}</span></p>
+            </article>
+          {{/each}}
+        </div>
+      </script>
+    {% endraw %}
+  </section><!-- /Our Blog -->
+</div>
+
+<div class="bottom-nav">
+  <a class="red-button" href="/love/">
+    Por que nos amar?
+  </a>
+</div>
+
+<script type="text/javascript">
+  mixpanel.track_links(".red-button", "Clicked - Referências");
+  mixpanel.track_links(".logo-tip-trigger", "Clicked - HE:Mobile");
+
+  mixpanel.track_links(".social-twitter", "Clicked - Twitter HE:labs");
+  mixpanel.track_links(".social-github", "Clicked - Github HE:labs");
+  mixpanel.track_links(".social-facebook", "Clicked - Facebook HE:labs");
+  mixpanel.track_links(".social-youtube", "Clicked - Youtube HE:labs");
+  mixpanel.track_links(".social-dribbble", "Clicked - Dribbble HE:labs");
+  mixpanel.track_links(".social-blog", "Clicked - Blog HE:labs");
+  mixpanel.track_links(".social-mailing", "Clicked - Mailing HE:labs");
+</script>

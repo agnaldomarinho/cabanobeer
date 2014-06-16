@@ -1,0 +1,210 @@
+@charset "utf-8";
+
+
+/* ====================
+ESPN Mobile
+==================== */
+
+#cover-banner-espn {
+  margin-top: 80px;
+  padding: 50px 0 50px 0;
+  background: url('/images/cases/espn-mobile/espn_bg.jpg') center bottom;
+  background-size: cover;
+  height: 630px;
+  color: #fff;
+  
+  .iphone {
+    background: url('/images/cases/espn-mobile/iphone.png') no-repeat scroll top left;
+    width: 367px;
+    height: 671px;
+    float:left;
+    
+    iframe { 
+      background: none repeat scroll 0 0 #333;
+      border: 0 none;
+      float: left;
+      height: 410px;
+      margin-left: 70px;
+      margin-top: 143px;
+      width: 231px;
+    }
+  } // .iphone
+
+  h2 {
+    color: #fff;
+    float: left;
+    font-size: 39px;
+    font-weight: bold;
+    margin-bottom: 1em;
+    margin-top: 2em;
+    text-align: left;
+    text-transform: uppercase;
+    width: 54%;
+  }
+
+  .link {
+    background: url('/images/cases/espn-mobile/link.png') no-repeat scroll right top;
+    float: right;
+    height: 36px;
+    position: relative;
+    top: 66px;
+    width: 127px;
+
+    a {
+      color: white;
+      text-decoration: none;
+    }
+  }
+
+  .testimonial {
+    color: #fff;
+    display: block;
+    float: right;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 2em;
+    text-align: right;
+    width: 60%;
+    
+    img {
+      float: right;
+      margin-left: 20px;
+    }
+    
+    span {
+      font-weight: lighter;
+      font-size: 14px;
+    }
+  }
+
+  p {
+    float: left;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: lighter;
+    margin: 10px 0 0;
+    width: 60%;
+    line-height: 1.6;
+    
+    &:before {
+      background: url('/images/cases/espn-mobile/aspa1.png') no-repeat scroll top left;
+      width: 35px;
+      height: 28px;
+      content: "";
+      float: left;
+      margin-right: 5px;
+    }
+
+    &:after {
+      background: url('/images/cases/espn-mobile/aspa2.png') no-repeat scroll top left;
+      width: 35px;
+      height: 28px;
+      content: "";
+      display: inline-block;
+      margin-left: 5px;
+    }
+
+  }
+
+  ul { margin: 30px 0 0 0; }
+
+  li {
+    margin: 0 10px 0 10px;
+    display: inline-block;
+  }
+}
+
+#espn-mobile {
+  .step-number {
+    left: 50%;
+    margin: -80px auto 0 -30px;
+    position: absolute;
+  }
+
+  .containner {
+    text-align: center;
+  }
+
+  .lead {
+    color: #333;
+    font-size: $font-large;
+    font-weight: lighter;
+    margin-left: 0 !important;
+    text-align: center !important;
+    line-height: 33px;
+    float: none;
+
+    span {
+      font-weight: bold;
+    }
+  }
+
+  li {
+    width: 100%;
+    padding: 50px 0 50px 0;
+    @include clearfix;
+  }
+
+  li:nth-child(odd) { background: $light-grey1; }
+  li:nth-child(even) { background: #fff; }
+
+  .work-thumb {
+    @include round_borders (4px);
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    box-shadow: 0 0 7px #e2e2e2;
+    width: 400px;
+    background: $light-grey2;
+    border: 1px solid $grey2;
+    padding: 6px 5px 0 5px;
+
+    img {
+      @include round_borders (2px);
+      width: 99.6%;
+      border: 1px solid $grey2;
+      border-bottom: none;
+      float: left;
+    }
+  }
+
+  #no-float {
+    float: none;
+  }
+
+  .odd-work img { float: left; }
+  .even-work img { float: right; }
+  
+  .odd-work p,
+  .even-work p {
+    font-size: $font-medium2;
+    line-height: 28px;
+  }
+  
+  .odd-work p { 
+    margin-left: 350px;
+    text-align: left;
+  }
+
+  .even-work p {
+    margin-right: 350px;
+    text-align: right;
+  }
+  
+  .work-info {
+
+    h3 {
+      font-size: $font-big;
+      font-weight: 900;
+      color: #000;
+      margin: 0 0 15px 0;
+    }
+
+    p {
+      font: normal $font-medium $sans_serif;
+      line-height: 27px;
+      margin: 0 0 15px 0;
+    }
+  }
+
+}

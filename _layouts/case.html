@@ -1,0 +1,83 @@
+---
+layout: default
+title:  Cases - Web Software Development
+description: HE:labs é uma empresa pioneira em desenvolvimento de sistemas web, aplicativos web, SaaS e Cloud Computing.
+---
+
+<section class="case-hero">
+  <div class="containner">
+    <article>
+      <h2>{{ page.name }}</h2>
+      <p>{{ page.project_kind }}</p>
+    </article>
+    <article>
+      <figure class="browser-frame">
+        <img src="{{ page.image }}">
+      </figure>
+    </article>
+  </div>
+</section>
+
+<section class="main-infos">
+  <div class="containner">
+    <article>
+      <h3>Sobre o Projeto</h3>
+      <p>{{ page.about }}</p>
+      <p>{{ page.status }}</p>
+      <p>{{ page.what_has_been_done }}</p>
+    </article>
+    <aside>
+      {% if page.project_team %}
+        <h3>Equipe</h3>
+        <ul>
+          {% for person in site.categories.time %}
+            {% for team_member in page.project_team %}
+              {% for sa in person.social_accounts %}
+                {% if sa.provider == 'github' and sa.username == team_member.github  %}
+                  <li>
+                    <a href="{{ person.permalink }}">
+                      <figure>
+                        <img src="{{ person.image }}" alt="{{ person.full_name }}" width="50" height="50" />
+                      </figure>
+                      <h4>{{ person.full_name }}</h4>
+                      <p>{{ person.job_title }}</p>
+                    </a>
+                  </li>
+                {% endif %}
+              {% endfor %}
+            {% endfor %}
+          {% endfor %}
+        </ul>
+      {% endif %}
+    </aside>
+  </div>
+</section>
+
+{% if page.video_id or page.customer_experience %}
+  <section class="client">
+    <div class="containner">
+      <h3>Vídeos sobre o projeto</h3>
+      {% if page.video_id %}
+        <article class="video">
+          <div class="video-thumb">
+            <a href="http://www.youtube.com/watch?feature=player_embedded&v={{ page.video_id }}" rel="prettyPhoto">
+            <img src="{{ page.video_image }}">
+          </div>
+        </article>
+      {% endif %}
+
+      {% if page.customer_experience %}
+        <article class="testimonial">
+          <i>{{ page.customer_experience }}</i>
+          <em>{{ page.customer_name }}</em>
+        </article>
+      {% endif %}
+    </div>
+  </section>
+{% endif %}
+
+<div class="bottom-nav">
+  <a class="red-button" href="/trabalho/">
+    Conheça outros projetos
+  </a>
+</div>

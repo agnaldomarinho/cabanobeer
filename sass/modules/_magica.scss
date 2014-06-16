@@ -1,0 +1,175 @@
+@charset "utf-8";
+
+
+/* ====================
+Process (Mágica)
+==================== */
+
+#process {
+  padding: 40px 0 1px 0;
+  text-align: center;
+}
+
+#process-info {
+  margin-top: 30px;
+  width: 100%;
+  position: relative;
+
+  img { width: 55%; }
+
+  > div {
+    height: 40px;
+    background: $he_red;
+    position: absolute;
+    text-align: left;
+    color: #fff;
+    z-index: 400;
+    @include fade_effect;
+  }
+
+  a{
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    height: 40px;
+  }
+  span {
+    width: 30px;
+    height: 34px;
+    font-size: 19px;
+    text-align: center;
+    background: #e03145;
+    margin-right: 7px;
+    padding: 6px 0 0 0;
+    float: left;
+  }
+
+  p {
+    font-size: $font-small;
+    line-height: 15px;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    margin: 0;
+  }
+}
+
+.proc-desc-01 {
+  width: 155px;
+  left: 120px;
+  top: 115px;
+}
+
+.proc-desc-02 {
+  width: 157px;
+  left: 340px;
+  top: 160px;
+}
+
+.proc-desc-03 {
+  width: 172px;
+  left: 270px;
+  top: 35px;
+}
+
+.proc-desc-04 {
+  width: 175px;
+  left: 650px;
+  top: 50px;
+}
+
+.proc-desc-05 {
+  width: 120px;
+  left: 650px;
+  top: 230px;
+}
+
+.proc-desc-06 {
+  width: 160px;
+  left: 480px;
+  bottom: 85px;
+}
+
+/*-*/
+
+#tablet-descriptions { display: none; }
+
+
+/* Process Entry */
+
+#process-entry {
+  display: block;
+  margin: 40px 0 60px;
+  @include clearfix;
+}
+
+.process-column {
+  width: 100%;
+  height: 100%;
+  margin: -90px 0 30px;
+  text-align: left;
+
+  h3 {
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: $font-large;
+    margin: 15px 0 0 0;
+    color: $he_red;
+    margin-bottom: 15px;
+    padding-top: 90px;
+  }
+
+  h4 {
+    font-size: $font-medium2;
+    margin: 0 0 3px 0;
+  }
+
+  ul {
+    li {
+      border: 1px solid $grey1;
+      padding: 2%;
+      margin-top: -1px;
+    }
+
+    li:nth-child(even) {background: $light-grey1; }
+    li:nth-child(odd) {background: $light-grey2; }
+  }
+
+  .hide-content {
+    margin-top: 10px;
+
+    .show-more {
+      padding: 5px;
+      cursor: pointer;
+      font-size: 21px;
+      margin-left: -5px;
+      color: $grey2;
+
+      &:hover { color: $he_red; }
+    }
+
+    .show-content {
+      box-shadow: 0 0 10px $grey2;
+      @include round_borders (4px);
+      margin-top: 10px;
+      background: #fff;
+      border: 1px solid $grey2;
+      padding: 20px;
+      padding-bottom: 0;
+
+      iframe {
+        width: 100%;
+        max-width: 400px;
+        min-height: 200px;
+        margin-bottom: 20px;
+      }
+
+    } // div.show-content
+
+  } // .hide-content
+} // .process-column
+
+.hidden > div { display: none; }
+.visible > div { display: block; }
